@@ -46,7 +46,8 @@ A modern stock analysis application built with Python, FastAPI, and Streamlit th
 
 1. **Clone or navigate to the project directory**
    ```bash
-   cd your-project-directory
+   git clone https://github.com/nageshkharat/stock-performance-analyzer.git
+   cd stock-analyzer-main
    ```
 
 2. **Install Python dependencies**
