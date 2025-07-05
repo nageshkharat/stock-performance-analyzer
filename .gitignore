@@ -1,8 +1,5 @@
-# Environment variables (IMPORTANT: Don't upload API keys!)
+# Environment variables (contains API key)
 .env
-.env.local
-.env.development
-.env.production
 
 # Python
 __pycache__/
@@ -32,6 +29,7 @@ env/
 ENV/
 env.bak/
 venv.bak/
+.venv/
 
 # IDE
 .vscode/
@@ -60,14 +58,5 @@ logs/
 # Streamlit
 .streamlit/
 
-# Pytest
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Original Node.js files (if you want to exclude them)
-stock-analyzer-main/
-node_modules/ 
+# Original Node.js project files (if you want to keep them separate)
+stock-analyzer-main/ 
