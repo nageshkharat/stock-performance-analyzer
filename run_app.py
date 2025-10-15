@@ -4,6 +4,7 @@ Simple script to run both FastAPI backend and Streamlit frontend.
 This makes it easier to start the entire application with one command.
 """
 
+
 import subprocess
 import sys
 import time
