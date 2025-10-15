@@ -3,6 +3,7 @@ import asyncio
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import httpx
+
 from typing import Dict, Any
 from dotenv import load_dotenv
 from finance_utils import calculate_xirr, calculate_sharpe_ratio, calculate_volatility
